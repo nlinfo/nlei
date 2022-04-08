@@ -111,10 +111,18 @@ header ul {
 #links_git_mail div:last-of-type {
     /*display: none;*/
 }
+#abrir_fecharLinks{
+    
+    padding: .5rem;
+    background-color: #de5151;
+    border-radius: 3px;
+}
 
-#links_git_mail div:last-of-type a {
+#links_git_mail div:last-of-type > a {
     color: #fff;
     width: 100%;
+    padding: .5rem;
+    text-align: center;
 
 }
 
