@@ -92,6 +92,7 @@ header ul{
     border-radius: 2px;
 }
 #links_git_mail div:last-of-type{
+    /*display: none;*/
 }
 #links_git_mail div:last-of-type a{
     color: #fff;
