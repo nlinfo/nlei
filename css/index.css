@@ -18,6 +18,7 @@ header{
     padding-left: 3rem;
     padding-right: 3rem;
     color: #3B3B3B;
+    font-weight: bold;
 }
 
 header a{
@@ -50,9 +51,13 @@ header ul{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    font-weight: bold;
 }
 .introducao div p:first-of-type{
     font-size: 2em;
+}
+.introducao div p:first-of-type > span{
+    color: #00C6CF;
 }
 .introducao div a{
     text-decoration: none;
@@ -61,7 +66,7 @@ header ul{
     max-width: fit-content;
     padding: .5rem 1rem;
     border-radius: 2px;
-    margin: 3rem auto 5rem 0;
+    margin: 3rem auto 7rem 0;
 }
 
 .introducao img{
