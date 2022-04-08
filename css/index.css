@@ -73,3 +73,19 @@ header ul{
     max-width: 40%;
 }
 
+
+
+/*links*/
+#links_git_mail{
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    background-color: #3B3B3B;
+    color: #fff;
+    display: flex;
+}
+#links_git_mail div:last-of-type{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
