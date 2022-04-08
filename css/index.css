@@ -21,6 +21,10 @@ header {
     font-weight: bold;
 }
 
+header h1 a{
+    color: #00C6CF;
+}
+
 header a {
     text-decoration: none;
     color: #3B3B3B;
