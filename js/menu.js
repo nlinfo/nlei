@@ -6,5 +6,4 @@ botaoMenu.addEventListener("click", abrir_fecharMenu);
 
 function abrir_fecharMenu() {
     menuMobile.classList.toggle("menu_mobile");
-    console.log("ativo")
 }
