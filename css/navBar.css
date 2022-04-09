@@ -34,6 +34,13 @@ header ul {
     font-size: 1.1em;
 }
 
+/*botão menu*/
+#botao_menu{
+    background-color: #00C6CF;
+    padding: .3rem .5rem;
+    border-radius: 2px;
+}
+
 
 /*responsividade*/
 
@@ -58,6 +65,7 @@ header ul {
 
     header nav ul{
         position: fixed;
+        
         z-index: 1;
         bottom: 0;
         top: 5rem;
