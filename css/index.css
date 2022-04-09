@@ -8,41 +8,6 @@
 }
 
 
-/*menu*/
-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    color: #3B3B3B;
-    font-weight: bold;
-}
-
-header h1 a{
-    color: #00C6CF;
-}
-
-header a {
-    text-decoration: none;
-    color: #3B3B3B;
-}
-
-header nav {
-    min-width: 50%;
-}
-
-header ul {
-    list-style-type: none;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-
 /*Introdução*/
 .introducao {
     padding-left: 3rem;
