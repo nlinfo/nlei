@@ -95,6 +95,9 @@
     color: #00C6CF;
 
 }
+#abrir_fecharLinks{
+    cursor: pointer;
+}
 
 
 /* Responsividade */
