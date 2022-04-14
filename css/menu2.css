@@ -1,0 +1,114 @@
+header {
+  color: #3B3B3B;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0rem 3rem;
+}
+nav .logo h1 a {
+  text-decoration: none;
+  color: #00C6CF;
+}
+
+nav .menu ul {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.1em;
+}
+nav .menu ul li{
+  
+  padding: 0.2rem 0.5rem;
+  transition: background-color .5s;
+}
+
+nav .menu ul li a {
+  text-decoration: none;
+  color: #3B3B3B;
+}
+
+.menuToggle{
+  position: absolute;
+  right: 2rem;
+  height: 60px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  padding: 0 23px;
+}
+
+.menuToggle::before{
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: #333;
+  transform: translateY(-8px);
+  transition: 0.5s;
+}
+
+.menu.open .menuToggle::before{
+  transform: translateY(0px) rotate(225deg);
+}
+
+.menuToggle::after{
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: #333;
+  transform: translateY(8px);
+  transition: 0.5s;
+  box-shadow: 0 -8px 0 #333;
+}
+
+.menu.open .menuToggle::after{
+  transform: translateY(0px) rotate(-225deg);
+  box-shadow: 0 0px 0 #333;
+}
+
+.menuToggle{
+  display: none;
+}
+
+@media (max-width: 600px){
+  .menuToggle{
+    display: block;
+  }
+
+  .menu ul{
+    display: flex;
+    visibility: hidden;
+    overflow-y: hidden;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    width: 100%;
+    height:0px;
+    top: 70px;
+    right: 0px;
+    background-color: #f8a6a6;
+    padding: 1rem;
+    z-index: 1000;
+  }
+
+  .menu ul li{
+    margin-bottom: 2px solid rgba(0, 0, 0, 0.384);
+  }
+  .menu.open ul{
+    visibility:visible ;
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+    transition: 0.5s;
+  }
+}
