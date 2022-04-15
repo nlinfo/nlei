@@ -1,0 +1,12 @@
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#iframe_calendario{
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 70%;
+}
