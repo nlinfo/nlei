@@ -1,0 +1,42 @@
+
+.evento{
+    color: #3B3B3B;
+    width: 20rem;
+    border-radius: .3rem;
+    background-color: aqua;
+
+}
+.evento div:first-of-type{
+    background-color: yellowgreen;
+    text-align: center;
+    padding: .5rem;
+}
+.evento div:last-of-type{
+    background-color: violet;
+    text-align: left;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+.evento div:first-of-type span:nth-child(1){
+    font-size: 14px;
+}
+.evento div:first-of-type span:nth-child(2){
+    font-weight: 
+    bold;
+}
+.evento div:last-of-type span:nth-child(2){
+    font-weight: bold;    
+}
+.evento a{
+    text-decoration: none;
+    color: #3B3B3B;
+
+    text-align: center;
+    font-weight: bold;
+    background-color: aliceblue;
+    padding: .3rem;
+    border-radius: .3rem;
+    margin-top: 1rem;
+}
