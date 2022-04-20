@@ -1,18 +1,27 @@
 
+section{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border-radius: 1rem;
+    padding: 0 3rem;
+}
+
 .evento{
     color: #3B3B3B;
     width: 20rem;
-    border-radius: .3rem;
-    background-color: aqua;
+    overflow: auto;
+    border-radius: .2rem;
+
+    box-shadow: 5px 5px 12px #6da1fc;
 
 }
 .evento div:first-of-type{
-    background-color: yellowgreen;
+    background-color: #6da1fc;
     text-align: center;
     padding: .5rem;
 }
 .evento div:last-of-type{
-    background-color: violet;
     text-align: left;
     padding: 1rem;
 
@@ -35,8 +44,8 @@
 
     text-align: center;
     font-weight: bold;
-    background-color: aliceblue;
+    background-color: #6da1fc;
     padding: .3rem;
-    border-radius: .3rem;
+    border-radius: .2rem;
     margin-top: 1rem;
 }
