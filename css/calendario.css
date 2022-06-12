@@ -18,6 +18,7 @@ section{
 }
 .evento div:first-of-type{
     background-color: #6da1fc;
+    color: #fff;
     text-align: center;
     padding: .5rem;
 }
