@@ -1,0 +1,87 @@
+
+h2{
+    background-color: #00C6CF;
+    color: #3B3B3B;
+    width: fit-content;
+    margin: 4rem auto 2rem;
+
+    padding: .3rem 2rem;
+    font-size: 1.1em;
+    border-radius: 3px;
+}
+
+/*barra de pesquisa*/
+
+#top_bar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    gap: 2rem;
+
+    margin: 3rem 1rem 0;
+}
+#top_bar  button{
+    cursor: pointer;
+
+}
+#top_bar > button{
+
+    background-color: #3B3B3B;
+    color: #fff;
+    border: none;
+    padding: .3rem .6rem;
+
+}
+
+#top_bar > div{
+    display: inline-flex;
+    flex-direction:  row;
+    align-items: center;
+    gap: .5rem;
+    place-self: center;
+
+}
+
+#top_bar input[type=search]{
+    border: 3px solid #00C6CF;
+}
+#top_bar > div button{
+    background-color: #fff;
+    border: none;
+
+}
+#top_bar i{
+    color: #00C6CF;
+    font-size: 1.1rem;
+}
+
+/*ficheiros*/
+
+#files{
+
+    margin: 5rem 2rem 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.recurso{
+    display: flex;
+    flex-direction: row; 
+    gap: .4rem;
+    align-items: baseline;
+}
+.recurso i {
+    color: #00C6CF;
+}
+.recurso div{
+    display: flex;
+    flex-direction: column;
+}
+.recurso div p{
+    font-weight: bold;
+}
+.recurso div span{
+    font-size: .8em;
+}
