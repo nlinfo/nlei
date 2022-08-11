@@ -14,7 +14,7 @@ h2{
 
 #top_bar{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row wrap-reverse;
     justify-content: center;
     
     gap: 2rem;
@@ -84,4 +84,10 @@ h2{
 }
 .recurso div span{
     font-size: .8em;
+}
+
+
+/*pagination*/
+.pagination{
+    margin-top: 7rem;
 }
