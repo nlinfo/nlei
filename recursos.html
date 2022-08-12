@@ -39,8 +39,10 @@
         <div id="top_bar">
             <button>Filtrar</button>
             <div>
-                <input type="search" id="">
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <form action="">
+                    <input type="search" id="">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
 
             </div>
         </div>
@@ -112,39 +114,42 @@
             </div>
         </section>
         <section id="filtro">
-            <p>Filtrar por:</p>
+            <form>
+                <p>Filtrar por:</p>
 
-            <label for="ano_lectivo">Ano:</label>
-            <select name="" id="ano_lectivo">
-                <option value="2020">2020</option>
-                <option value="2021">2021</option>
-                <option value="2022">2022</option>
-            </select>
+                <label for="ano_lectivo">Ano:</label>
+                <select name="" id="ano_lectivo">
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                </select>
 
-            <label for="">Cadeira:</label>
-            <select name="" id="">
-                <option value="Ingles">Inglês</option>
-                <option value="Analise Matematica">Analise Matemática</option>
-                <option value="Algebra Linear">Algébra Linear</option>
-                <option value="Base de Dados">Base de Dados</option>
-            </select>
+                <label for="">Cadeira:</label>
+                <select name="" id="">
+                    <option value="Ingles">Inglês</option>
+                    <option value="Analise Matematica">Analise Matemática</option>
+                    <option value="Algebra Linear">Algébra Linear</option>
+                    <option value="Base de Dados">Base de Dados</option>
+                </select>
+                <button>filtrar</button>
+            </form>
 
-            <button>filtrar</button>
-        
+
+
         </section>
 
     </main>
-    
-        <!--pagination-->
-        <div class="pagination">
-            <a href="#">&laquo;</a>
-            <a href="#">1</a>
-            <a href="#" class="active">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
-            <a href="#">&raquo;</a>
-        </div>
+
+    <!--pagination-->
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#" class="active">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">&raquo;</a>
+    </div>
 
 
     <script src="./js/index.js"></script>
