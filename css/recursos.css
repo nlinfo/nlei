@@ -99,31 +99,30 @@ h2 {
 
 #filtro {
     position: fixed;
-    top: 1rem;
-    right: 1rem;
-    bottom: 1rem;
-    left: 1rem;
+    top: 15%;
+    right: 20%;
+    bottom: 15%;
+    left: 20%;
 
     background-color: #3B3B3B;
-
 }
 
 #filtro form {
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     width: 20%;
-    margin: 20vh auto 0;  
+    height: 100%;
+    margin: auto ;  
 
+    color: #fff;
 }
 
-form input{
-
+form select{
     margin-bottom: 1rem;  
-
 }
-
 
 
 
