@@ -75,6 +75,14 @@ h2 {
     flex-direction: row;
     gap: .4rem;
     align-items: baseline;
+    padding: 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+
+    transition: background-color 1.5s;
+}
+.recurso:hover{    
+    background-color: rgba(0, 197, 207, 0.573);
 }
 
 .recurso i {
@@ -99,12 +107,21 @@ h2 {
 
 #filtro {
     position: fixed;
+    visibility: hidden;
     top: 15%;
     right: 20%;
     bottom: 15%;
     left: 20%;
 
-    background-color: #3B3B3B;
+    background-color: rgb(59, 59, 59, .7);
+}
+#fechar_filtro{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #fff;
+    color: #3B3B3B;
+    font-weight: bold;
 }
 
 #filtro form {
@@ -119,9 +136,20 @@ h2 {
 
     color: #fff;
 }
+form p{
+    text-align: center;
+}
 
 form select{
     margin-bottom: 1rem;  
+    padding: .2rem .4rem;
+}
+form button{
+    background-color: #3B3B3B;
+    color: #fff;
+    border: none;
+    padding: .3rem .5rem;
+    cursor: pointer;
 }
 
 
