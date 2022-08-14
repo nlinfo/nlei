@@ -117,7 +117,7 @@ h2 {
 
     background-color: rgb(59, 59, 59, .7);
 }
-#fechar_filtro{
+#fechar_filtro, #fechar_download{
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -159,6 +159,11 @@ form button{
     display: grid;
     place-items: center;
 
+}
+#fechar_download{
+    border: none;
+    padding: .3rem .5rem;
+    cursor: pointer;
 }
 
 #download div{

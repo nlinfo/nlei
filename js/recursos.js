@@ -17,6 +17,7 @@ fechar_filtro.addEventListener("click", () => {
 //download file section
 
 const abrir_download = document.querySelector(".recurso")
+const fechar_download = document.querySelector("#fechar_download")
 const downloadSection = document.querySelector("#download") 
 
 var allResourceButtons = document.querySelectorAll('a[class^=recurso]');
@@ -32,3 +33,8 @@ for (var i = 0; i < allResourceButtons.length; i++) {
   
     });
   }
+
+
+  fechar_download.addEventListener("click", () => {
+    downloadSection.style.visibility="hidden" ;
+})
