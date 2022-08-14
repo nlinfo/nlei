@@ -1,4 +1,6 @@
 
+
+//filter section
 const abrir_filtro = document.querySelector("#abrir_filtro")
 
 const fechar_filtro = document.querySelector("#fechar_filtro")
@@ -11,3 +13,22 @@ fechar_filtro.addEventListener("click", () => {
     filtroSection.style.visibility="hidden" ;
 })
 
+
+//download file section
+
+const abrir_download = document.querySelector(".recurso")
+const downloadSection = document.querySelector("#download") 
+
+var allResourceButtons = document.querySelectorAll('a[class^=recurso]');
+
+/*pegar todos os links de recurso*/
+for (var i = 0; i < allResourceButtons.length; i++) {
+    allResourceButtons[i].addEventListener('click', function() {
+      console.clear();
+      console.log("You clicked:", this.innerHTML);
+
+      /*abrir a sessão de download*/
+      downloadSection.style.visibility="visible" ;
+  
+    });
+  }
