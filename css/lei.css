@@ -1,0 +1,52 @@
+body{
+    margin: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        background-color: #f6fafa;
+} 
+.chamada h1{
+    margin: 30px;
+    color:#3B3B3B;
+    background-color: rgb(91, 161, 231) ;
+    border-radius: 15px;
+    font-size: 30 px;
+    text-align: center;
+    padding: 30px ;
+
+}
+.chamada p{
+    margin: 30px;
+    padding: 0px;
+    color:#0c0b0b;
+    font-size: 15px;
+    text-align: justify;
+    text-indent: px;
+    border-radius:50px;
+ 
+  
+}
+.camada h2{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+button[type=button]{
+    /*background-color: #0c0b0b;*/
+}
+#principal{
+    display: block;
+}
+table{
+    margin: 100px;
+    width: 500px;
+
+    border-collapse: collapse;
+    padding: 50px ;
+    text-align: center;
+}
+td{
+    border: 2px solid black;
+}
+/*#principal div{
+    display:none;
+}*/
