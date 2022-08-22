@@ -1,25 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LEI</title>
-    <link rel="stylesheet" href="css\estilo.css">
-    <script src="javascrip.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/navBar.css">
+    <link rel="stylesheet" href="./css/recursos.css">
+    <link rel="stylesheet" href="./css/lei.css">
 
 </head>
-<element class="chamada">
 
-    <body>
-        <h1>Licenciatura em Engenharia Informatica</h1>
-        <hr><br>
-        <center>
-            <img src="img\informatica.jpg" />
-        </center>
-        <br><br><br>
-        <h2>Apresentação</h2>
+<body>
+
+    <header>
+        <h1><a href="./index.html">NLEI</a></h1>
+        <nav>
+            <ul id="menu_mobile">
+                <li><a href="#">LEI</a></li>
+                <li><a href="./news.html">News</a></li>
+                <li><a href="./recursos.html">Recursos</a></li>
+                <li><a href="./calendario.html">Calendário</a></li>
+                <li><a href="./notas.html">Notas</a></li>
+            </ul>
+        </nav>
+        <div id="botao_menu"><i class="fa-solid fa-bars"></i></div>
+    </header>
+
+    <h2>Licenciatura em Engenharia Informatica</h2>
+
+    <div class="image-div">
+        <img src="imagens/informatica.gif" />
+    </div>
+    <main>
+
+
+
+        <h3>Apresentação</h3>
         <P>A formação nas áreas tecnológicas é essencial para o desenvolvimento do
             nosso país e mais especificamente das suas indústrias,<br> sejam elas de
             manufactura ou de serviços. A carência de técnicos qualificados:</P>
@@ -41,7 +60,7 @@
             Com o conteúdo programático das diferentes unidades
             curriculares e as metodologias de ensino, nomeadamente a aquisição de conhecimentos com base
             na aprendizagem, o licenciado nesta área estará apto a ingressar no meio profissional. </p>
-        <h2>Objectivos de aprendizagem</h2>
+        <h3>Objectivos de aprendizagem</h3>
         <p>O 1.º ciclo de estudos, conducente à atribuição do grau de
             licenciado, tem como objectivo geral dotar o estudante de um nível de competências genéricas
             na área especifica da engenharia informática, domínio onde Portugal é altamente deficitário em mão de
@@ -66,21 +85,24 @@
                 instalação e manutenção, como também ao nível do desenvolvimento de aplicações distribuídas c
                 om particular incidência para a utilização das tecnologias multimédia.</li>
         </ul>
-        <select id="select" name="select">
-            <option value="">Planos de estudos</option>
-            <option value="ano0">Ano 0</option>
-            <option value="ano1">1º Ano</option>
-        </select>
-        <div >
+
+        <section>
+
+            <select id="select" name="select">
+                <option value="">Planos de estudos</option>
+                <option value="ano0">Ano 0</option>
+                <option value="ano1">1º Ano</option>
+            </select>
+
             <div id="div1" class="ano0">
                 <table>
 
                     <caption>Ano zero</caption>
 
                     <tr>
-                        <td>Unidade curricular</td>
-                        <td>Área cientifica</td>
-                        <td>Tipo</td>
+                        <th>Unidade curricular</th>
+                        <th>Área cientifica</th>
+                        <th>Tipo</th>
                     </tr>
                     <tr>
                         <td>Introdução à análise matemática</td>
@@ -130,10 +152,10 @@
             <div id="div2" class="ano1">
                 <table>
                     <caption>1º Ano</caption>
-                    <tr c>
-                        <td>Unidade curricular</td>
-                        <td>Área cientifica</td>
-                        <td>Tipo</td>
+                    <tr>
+                        <th>Unidade curricular</th>
+                        <th>Área cientifica</th>
+                        <th>Tipo</th>
                     </tr>
                     <tr>
                         <td>Análise matemática I</td>
@@ -178,15 +200,16 @@
                     </tr>
                 </table>
             </div>
-        </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <p class="copyright">&copy; 2022 José Loureiro</p>
+    </footer>
 
-        <footer id="footer">
-            <p class="copyright">&copy; 2022 José Loureiro</p>
-        </footer>
 
+    <script src="./js/index.js"></script>
+    <script src="./js/lei.js"></script>
+</body>
 
-        <script src="./js/index.js"></script>
-    </body>
-</element>
 
 </html>

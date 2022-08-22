@@ -1,7 +1,6 @@
 
 
 
-
 //links
 var abrir_fecharLinksRapidos = document.getElementById("ellips_xmark")
 

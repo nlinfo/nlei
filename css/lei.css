@@ -1,52 +1,57 @@
-body{
-    margin: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        background-color: #f6fafa;
-} 
-.chamada h1{
-    margin: 30px;
-    color:#3B3B3B;
-    background-color: rgb(91, 161, 231) ;
-    border-radius: 15px;
-    font-size: 30 px;
-    text-align: center;
-    padding: 30px ;
 
+.image-div img{
+    width: 30%;
+    margin: auto;
+    display: block;
 }
-.chamada p{
-    margin: 30px;
-    padding: 0px;
-    color:#0c0b0b;
-    font-size: 15px;
-    text-align: justify;
-    text-indent: px;
-    border-radius:50px;
- 
-  
+
+main{
+    margin: 2rem;
 }
-.camada h2{
+
+main p {
+    margin: 1rem 0;
     text-align: justify;
-    text-indent: 30px;
+}
+main ul{
+    padding: 0 0 0 4rem;
 }
 
 button[type=button]{
     /*background-color: #0c0b0b;*/
 }
-#principal{
-    display: block;
+
+section{
+    overflow-x: auto;
 }
+select{
+
+    margin:  2rem 0 4rem 4rem;
+    background-color: #3B3B3B;
+    color: #fff;
+    padding: .3rem;
+    border: none;
+    font-weight: bold;
+}
+
 table{
-    margin: 100px;
-    width: 500px;
+    max-width: 31.25rem;
+    margin: auto auto 3rem;
 
     border-collapse: collapse;
-    padding: 50px ;
     text-align: center;
 }
 td{
     border: 2px solid black;
+    padding: .3rem;
 }
-/*#principal div{
-    display:none;
-}*/
+
+footer {
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    table{
+        font-size: small;
+    }
+}
