@@ -28,6 +28,11 @@ button {
     background-color: #3B3B3B;
     color: #fff;
 
+    transition: background-color .5s;
+
+}
+button:hover{
+    background-color: #3b3b3b92;
 }
 
 #top_bar>div {
@@ -41,11 +46,11 @@ button {
 
 #top_bar input[type=search] {
     border: 3px solid #00C6CF;
+    max-width: 20rem;
 }
 
 #top_bar>div button {
     background-color: #fff;
-
 }
 
 #top_bar i {
@@ -193,5 +198,12 @@ button a{
         bottom: 15%;
         left: 5%;
     
+    }
+}
+
+@media screen and (max-width: 333px) {
+
+    #top_bar input[type=search] {
+        max-width: 12rem;
     }
 }

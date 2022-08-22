@@ -46,6 +46,11 @@
     padding: .5rem 1rem;
     border-radius: 2px;
     margin: 3rem auto 7rem 0;
+    
+    transition: background-color .5s;
+}
+.introducao div a:hover{
+    background-color: #3b3b3bbe;   
 }
 
 .introducao img {

@@ -14,10 +14,9 @@
     background-color: #fff;
     padding: .3rem .5rem;
     cursor: pointer;
-    
-
-
+   
 }
+
 .buttons button:last-of-type{
     color: #fff;
     background-color: #3B3B3B;
