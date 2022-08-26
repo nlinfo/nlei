@@ -35,15 +35,25 @@ select{
 }
 
 table{
-    max-width: 31.25rem;
+    width: 100%;
     margin: auto auto 3rem;
+    text-align: center;
 
     border-collapse: collapse;
-    text-align: center;
+}
+table caption{
+    font-weight: bold;
+    background-color: #3B3B3B;
+    padding: .5rem;
+    color: #fff;
 }
 td{
-    border: 2px solid black;
     padding: .3rem;
+}
+
+tr:nth-child(even) {
+    background-color: #3b3b3b51;
+    /*background-color: #00c5cf59;*/
 }
 
 footer {
