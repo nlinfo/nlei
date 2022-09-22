@@ -1,6 +1,6 @@
 
 /**/ 
-const cacheName = 'neli'
+const cacheName = 'nlei'
 
 self.addEventListener('install', function(event){
     event.waitUntil(
