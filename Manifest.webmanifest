@@ -39,8 +39,8 @@
       }
     ],
     "start_url": "./index.html",
-    "theme_color": "#55a08a",
-    "background_color": "#B12A34",
+    "theme_color": "#00C6CF",
+    "background_color": "#3B3B3B",
     "display_override": ["fullscreen","window-control-overlay", "minimal-ui"],
     "display": "standalone"
   }
