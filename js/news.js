@@ -32,7 +32,7 @@ function informacaoToggle() {
         newsSection.style.display = "none"
     } else {
         infoSection.style.display = "none"
-        newsSection.style.display = "block" 
+        newsSection.style.display = "flex" 
     }
 }
 informacaoToggle()
