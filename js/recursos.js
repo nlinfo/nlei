@@ -38,3 +38,6 @@ for (var i = 0; i < allResourceButtons.length; i++) {
   fechar_download.addEventListener("click", () => {
     downloadSection.style.visibility="hidden" ;
 })
+
+
+
