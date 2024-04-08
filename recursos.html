@@ -1,33 +1,171 @@
 <!DOCTYPE html>
-<html lang="pt-Pt">
+<html lang="pt">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-  <link rel="stylesheet" href="css/navBar.css">
-  <link rel="stylesheet" href="css/recur.css">
-  <title>NLEI</title>
+    
+
+    <meta name="description" content="Núcleo formado por alunos de engenharia informática da Universidade lusiadas">
+    <meta name="keywords" content="nlei, universidade lusiada, lusiada">
+    <meta name="author" content="Edivaldo Bonfim">
+    <meta name="theme-color" content="#3B3B3B">
+    <link rel="apple-touch-icon" sizes="180x180" href="./imagens/icons/nlei_icon_x144.svg">
+    <link rel="icon" href="./imagens/icons/nlei_icon_x96.png" type="image/png">
+
+    <link rel="manifest" href="./Manifest.webmanifest">
+    
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLEI</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://kit.fontawesome.com/d2de26b24a.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/navBar.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/news.css">
+    <link rel="stylesheet" href="./css/recursos.css">
+
+    <script src="./sw.js"></script>
+    <script src="./app.js"></script>
 </head>
+
 <body>
-  <header>
-    <nav>
-      <div class="logo">
-        <h1><a href="index.html">NLEI</a></h1>
-      </div>
-      <div class="menu">
-        <ul>
-            <li><a href="lei.html">LEI</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="recursos.html">Recursos</a></li>
-            <li><a href="calendario.html">Calendário</a></li>
-            <li><a href="notas.html">Notas</a></li>
-        </ul>
-        <div class="menuToggle"></div>
-      </div>
-    </nav>
-</header>
-<body>
-  <script src="js/script.js"></script>
+    <header>
+        <h1><a href="./index.html">NLEI</a></h1>
+        <nav>
+            <ul id="menu_mobile">
+                <li><a href="./lei.html">LEI</a></li>
+                <li><a href="./news.html">News</a></li>
+                <li><a href="">Recursos</a></li>
+                <li><a href="./calendario.html">Calendário</a></li>
+                <li><a href="./notas.html">Notas</a></li>
+            </ul>
+        </nav>
+        <div id="botao_menu"><i class="fa-solid fa-bars"></i></div>
+    </header>
+
+    <h2>Recursos</h2>
+
+    <main>
+        <div id="top_bar">
+            <button id="abrir_filtro" type="button">Filtrar</button>
+            <div>
+                <form action="">
+                    <input type="search" id="bara_de_pesquisa">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+
+            </div>
+        </div>
+
+        <section id="files">
+            <a class="recurso" href="#download?fileId=1">
+                <i class="fa-solid fa-folder-open"></i>
+                <div>
+                    <p>Exercícios de Algébra</p>
+                    <span>algebra Linear</span>
+                    <span>2020-2021</span>
+                </div>
+            </a>
+            <a class="recurso" href="#download">
+                <i class="fa-solid fa-folder-open"></i>
+                <div>
+                    <p>Exercícios de Análise Matemática</p>
+                    <span>Analise Matematica</span>
+                    <span>2021-2022</span>
+                </div>
+            </a>
+
+            <a class="recurso" href="#download">
+                <i class="fa-solid fa-folder-open"></i>
+                <div>
+                    <p>Exercícios de Inglês</p>
+                    <span>Inglês</span>
+                    <span>2019-2020</span>
+                </div>
+            </a>
+            <a class="recurso" href="#download">
+                <i class="fa-solid fa-folder-open"></i>
+                <div>
+                    <p>Trabalhos práticos de progamação orientada a objectos</p>
+                    <span>IPOO</span>
+                    <span>2020-2021</span>
+                </div>
+            </a>
+            <a class="recurso" href="#download">
+                <i class="fa-solid fa-folder-open"></i>
+                <div>
+                    <p>Exercícios de Algébra</p>
+                    <span>algebra Linear</span>
+                    <span>2020-2021</span>
+                </div>
+            </a>
+            <a class="recurso" href="#download">
+                <i class="fa-solid fa-folder-open"></i>
+                <div>
+                    <p>Exercícios de Português</p>
+                    <span>Tecnicas de expressao oral e escrita</span>
+                    <span>2020-2021</span>
+                </div>
+            </a>
+        </section>
+        <section id="filtro" class="fixedSession">
+            <form>
+                <button id="fechar_filtro" type="button">fechar</button>
+                <p>Filtrar por:</p>
+
+                <label for="ano_lectivo">Ano:</label>
+                <select name="" id="ano_lectivo">
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                </select>
+
+                <label for="selectCadeira">Cadeira:</label>
+                <select name="" id="selectCadeira">
+                    <option value="Ingles">Inglês</option>
+                    <option value="Analise Matematica">Analise Matemática</option>
+                    <option value="Algebra Linear">Algébra Linear</option>
+                    <option value="Base de Dados">Base de Dados</option>
+                </select>
+                <button>filtrar</button>
+            </form>
+        </section>
+        <section class="baixar fixedSession" id="download">
+            <button id="fechar_download" type="button">fechar</button>
+            <div>
+            <p>Aulas de Base de Dados</p>
+            <p>Cadeira: introdução à Base de Dados</p>
+            <p>Docente: Jõao Carlos</p>
+            <p>Ano Letivo: 2021 - 2022</p>
+
+            <button><a href="">Download</a></button>
+            </div>
+        </section>
+
+    </main>
+
+    <!--pagination-->
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#" class="active">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">&raquo;</a>
+    </div>
+
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/recursos.js"></script>
+
+
 </body>
+
 </html>

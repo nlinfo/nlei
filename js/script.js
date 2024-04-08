@@ -8,6 +8,7 @@ function toggleMenu(){
 
 menuToggle.addEventListener('click', toggleMenu);
 
+<<<<<<< HEAD:js/script.js
 /*Para fixar o menu*/
 
 function fixarMenu(){
@@ -17,6 +18,8 @@ function fixarMenu(){
 
 window.addEventListener("scroll", fixarMenu);
 
+=======
+>>>>>>> edivaldo:js/index.js
 //links
 var abrir_fecharLinksRapidos = document.getElementById("ellips_xmark")
 
